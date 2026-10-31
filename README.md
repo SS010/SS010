@@ -11,33 +11,23 @@
 
 <img src="assets/banner.svg" alt="terminal" width="100%"/>
 
-</div>
+<img src="assets/divider.svg" alt="" width="100%"/>
 
-<br/>
+<img src="assets/neofetch.svg" alt="neofetch" width="100%"/>
 
-## `> cat ~/about.md`
+<img src="assets/divider.svg" alt="" width="100%"/>
 
-```yaml
-handle:   SS010
-role:     full-stack / mobile / automation
-focus:    [ ios-clients, telegram-bots, ai-vision, backend ]
-approach: ship small → measure → harden
-motto:    "looks right" != "done"
-```
+<img src="assets/radar.svg" alt="radar" width="100%"/>
 
-<br/>
+<img src="assets/divider.svg" alt="" width="100%"/>
 
 ## `> modules --status`
 
-<div align="center">
 <img src="assets/modules.svg" alt="modules" width="100%"/>
-</div>
 
-<br/>
+<img src="assets/divider.svg" alt="" width="100%"/>
 
 ## `> stack --list`
-
-<div align="center">
 
 ![Swift](https://img.shields.io/badge/Swift-0d1117?style=for-the-badge&logo=swift&logoColor=00ff41)
 ![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00ff41)
@@ -54,13 +44,9 @@ motto:    "looks right" != "done"
 ![Firebase](https://img.shields.io/badge/Firebase-0d1117?style=for-the-badge&logo=firebase&logoColor=00ff41)
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff41)
 
-</div>
-
-<br/>
+<img src="assets/divider.svg" alt="" width="100%"/>
 
 ## `> ping`
-
-<div align="center">
 
 [![Telegram](https://img.shields.io/badge/Telegram-@saidsaddam-0d1117?style=for-the-badge&logo=telegram&logoColor=00ff41)](https://t.me/saidsaddam)
 
