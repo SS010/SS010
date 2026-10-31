@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150"><style>
+.mono{font-family:'SFMono-Regular',Menlo,Consolas,monospace}
+.ecg{fill:none;stroke:#00ff41;stroke-width:2.5;stroke-linejoin:round;stroke-dasharray:260 940;animation:run 3.2s linear infinite;filter:url(#g)}
+.base{fill:none;stroke:#00ff41;stroke-opacity:.3;stroke-width:1.5}
+@keyframes run{from{stroke-dashoffset:260}to{stroke-dashoffset:-940}}
+.t{font-size:14px;fill:#00ff41;letter-spacing:2px;animation:fl 4s infinite}@keyframes fl{0%,94%,100%{opacity:1}95%{opacity:.3}97%{opacity:1}}
+.c{animation:bl 1s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+</style><defs><filter id="g" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="900" height="150" rx="10" fill="#0d1117"/><path class="base" d="M0 60 H120 L135 60 L145 20 L158 100 L170 60 H300 L315 60 L325 25 L338 95 L350 60 H480 L495 60 L505 15 L518 105 L530 60 H660 L675 60 L685 22 L698 98 L710 60 H900"/><path class="ecg" d="M0 60 H120 L135 60 L145 20 L158 100 L170 60 H300 L315 60 L325 25 L338 95 L350 60 H480 L495 60 L505 15 L518 105 L530 60 H660 L675 60 L685 22 L698 98 L710 60 H900"/>
+<text class="mono t" x="450" y="132" text-anchor="middle">ALL SYSTEMS NOMINAL // CONNECTION ALIVE<tspan class="c"> █</tspan></text></svg>

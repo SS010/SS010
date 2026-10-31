@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <style>
+    .m{font-family:'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace;font-size:18px}
+    .g{fill:#00ff41}.d{fill:#8b949e}.w{fill:#e6edf3}.c{fill:#58a6ff}
+    .scan{animation:scan 6s linear infinite}
+    @keyframes scan{from{transform:translateY(-40px)}to{transform:translateY(340px)}}
+    .t1{animation:t 1.4s steps(14) .4s both}
+    .t2{animation:t 2.2s steps(46) 2.2s both}
+    .t3{animation:t 1.4s steps(14) 4.8s both}
+    .t4{animation:t 2.4s steps(50) 6.4s both}
+    .t5{animation:t 1.6s steps(16) 9.2s both}
+    .t6{animation:t 1.8s steps(30) 11.2s both}
+    @keyframes t{from{width:0}to{width:760px}}
+    .cur{animation:b 1s steps(1) infinite}
+    @keyframes b{50%{opacity:0}}
+    .l2{animation:show 0s 2.2s both}.l4{animation:show 0s 6.4s both}.l6{animation:show 0s 11.2s both}
+    .p1{animation:show 0s .4s both}.p3{animation:show 0s 4.8s both}.p5{animation:show 0s 9.2s both}
+    @keyframes show{from{opacity:0}to{opacity:1}}
+  </style>
+  <defs>
+    <linearGradient id="sc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ff41" stop-opacity="0"/><stop offset=".5" stop-color="#00ff41" stop-opacity=".07"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="win"><rect x="10" y="10" width="880" height="300" rx="12"/></clipPath>
+    <clipPath id="r1"><rect class="t1" x="40" y="70" width="0" height="30"/></clipPath>
+    <clipPath id="r2"><rect class="t2" x="40" y="100" width="0" height="30"/></clipPath>
+    <clipPath id="r3"><rect class="t3" x="40" y="140" width="0" height="30"/></clipPath>
+    <clipPath id="r4"><rect class="t4" x="40" y="170" width="0" height="30"/></clipPath>
+    <clipPath id="r5"><rect class="t5" x="40" y="210" width="0" height="30"/></clipPath>
+    <clipPath id="r6"><rect class="t6" x="40" y="240" width="0" height="30"/></clipPath>
+  </defs>
+  <rect x="10" y="10" width="880" height="300" rx="12" fill="#0d1117" stroke="#00ff41" stroke-opacity=".45" stroke-width="1.5"/>
+  <rect x="10" y="10" width="880" height="36" rx="12" fill="#161b22"/>
+  <rect x="10" y="30" width="880" height="16" fill="#161b22"/>
+  <circle cx="34" cy="28" r="6" fill="#ff5f56"/><circle cx="56" cy="28" r="6" fill="#ffbd2e"/><circle cx="78" cy="28" r="6" fill="#27c93f"/>
+  <text x="450" y="33" text-anchor="middle" class="m d" style="font-size:13px">ss010@mac — zsh — 120×30</text>
+  <g clip-path="url(#win)"><rect class="scan" x="10" y="0" width="880" height="40" fill="url(#sc)"/></g>
+
+  <g class="m">
+    <g class="p1"><text x="40" y="90"><tspan class="g">ss010@mac</tspan><tspan class="d">:</tspan><tspan class="c">~</tspan><tspan class="w" dx="8">$</tspan></text></g>
+    <g clip-path="url(#r1)"><text x="178" y="90" class="w">whoami</text></g>
+    <g class="l2" clip-path="url(#r2)"><text x="40" y="120" class="g">SS010 — builder · mobile · bots · automation</text></g>
+
+    <g class="p3"><text x="40" y="160"><tspan class="g">ss010@mac</tspan><tspan class="d">:</tspan><tspan class="c">~</tspan><tspan class="w" dx="8">$</tspan></text></g>
+    <g clip-path="url(#r3)"><text x="178" y="160" class="w">cat stack.txt</text></g>
+    <g class="l4" clip-path="url(#r4)"><text x="40" y="190" class="g">Swift · Python · TypeScript · Dart · Java · Go</text></g>
+
+    <g class="p5"><text x="40" y="230"><tspan class="g">ss010@mac</tspan><tspan class="d">:</tspan><tspan class="c">~</tspan><tspan class="w" dx="8">$</tspan></text></g>
+    <g clip-path="url(#r5)"><text x="178" y="230" class="w">./status --now</text></g>
+    <g class="l6" clip-path="url(#r6)"><text x="40" y="260" class="g" xml:space="preserve">&gt; shipping SEV7N · training bots · breaking things<tspan class="cur" dx="4">█</tspan></text></g>
+  </g>
+</svg>

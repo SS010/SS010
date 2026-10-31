@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260"><style>
+.mono{font-family:'SFMono-Regular',Menlo,Consolas,monospace}
+.card{fill:#0d1117;stroke:#00ff41;stroke-opacity:.35;stroke-width:1.2;animation:pulse 3s ease-in-out infinite}
+@keyframes pulse{50%{stroke-opacity:1;fill:#0b1a10}}
+.bar{fill:#00ff41;animation:bp 3s ease-in-out infinite}@keyframes bp{50%{opacity:.35}}
+.nm{font-size:17px;font-weight:700;fill:#00ff41}.ds{font-size:14px;fill:#8b949e}.st{font-size:12px;fill:#c9ffd6;letter-spacing:1px}.id{font-size:12px;fill:#00ff41;fill-opacity:.5}
+.dot{fill:#00ff41;animation:bl 1.4s steps(1) infinite}@keyframes bl{50%{opacity:.2}}
+</style><g transform="translate(20,20)"><rect class="card" style="animation-delay:0.0s" width="280" height="92" rx="8"/>
+<rect class="bar" style="animation-delay:0.0s" x="0" y="0" width="4" height="92" rx="2"/>
+<text class="mono nm" x="22" y="34">iOS / MOBILE</text><text class="mono ds" x="22" y="58">Swift · Flutter</text>
+<text class="mono st" x="22" y="80"><tspan class="dot" style="animation-delay:0.0s">●</tspan> ONLINE</text>
+<text class="mono id" x="264" y="30" text-anchor="end">01</text></g><g transform="translate(320,20)"><rect class="card" style="animation-delay:0.45s" width="280" height="92" rx="8"/>
+<rect class="bar" style="animation-delay:0.45s" x="0" y="0" width="4" height="92" rx="2"/>
+<text class="mono nm" x="22" y="34">TELEGRAM BOTS</text><text class="mono ds" x="22" y="58">aiogram · MTProto</text>
+<text class="mono st" x="22" y="80"><tspan class="dot" style="animation-delay:0.3s">●</tspan> ONLINE</text>
+<text class="mono id" x="264" y="30" text-anchor="end">02</text></g><g transform="translate(620,20)"><rect class="card" style="animation-delay:0.9s" width="280" height="92" rx="8"/>
+<rect class="bar" style="animation-delay:0.9s" x="0" y="0" width="4" height="92" rx="2"/>
+<text class="mono nm" x="22" y="34">BACKEND</text><text class="mono ds" x="22" y="58">Python · Django · Go</text>
+<text class="mono st" x="22" y="80"><tspan class="dot" style="animation-delay:0.6s">●</tspan> ONLINE</text>
+<text class="mono id" x="264" y="30" text-anchor="end">03</text></g><g transform="translate(20,128)"><rect class="card" style="animation-delay:1.35s" width="280" height="92" rx="8"/>
+<rect class="bar" style="animation-delay:1.35s" x="0" y="0" width="4" height="92" rx="2"/>
+<text class="mono nm" x="22" y="34">AI VISION</text><text class="mono ds" x="22" y="58">detection · OCR · ReID</text>
+<text class="mono st" x="22" y="80"><tspan class="dot" style="animation-delay:0.8999999999999999s">●</tspan> ONLINE</text>
+<text class="mono id" x="264" y="30" text-anchor="end">04</text></g><g transform="translate(320,128)"><rect class="card" style="animation-delay:1.8s" width="280" height="92" rx="8"/>
+<rect class="bar" style="animation-delay:1.8s" x="0" y="0" width="4" height="92" rx="2"/>
+<text class="mono nm" x="22" y="34">WEB</text><text class="mono ds" x="22" y="58">Next.js · three.js</text>
+<text class="mono st" x="22" y="80"><tspan class="dot" style="animation-delay:1.2s">●</tspan> ONLINE</text>
+<text class="mono id" x="264" y="30" text-anchor="end">05</text></g><g transform="translate(620,128)"><rect class="card" style="animation-delay:2.25s" width="280" height="92" rx="8"/>
+<rect class="bar" style="animation-delay:2.25s" x="0" y="0" width="4" height="92" rx="2"/>
+<text class="mono nm" x="22" y="34">AUTOMATION</text><text class="mono ds" x="22" y="58">pipelines · cron · agents</text>
+<text class="mono st" x="22" y="80"><tspan class="dot" style="animation-delay:1.5s">●</tspan> ONLINE</text>
+<text class="mono id" x="264" y="30" text-anchor="end">06</text></g></svg>
